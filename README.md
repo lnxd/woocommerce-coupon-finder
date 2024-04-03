@@ -19,5 +19,7 @@ Created to assess and demonstrate WooCommerce's vulnerability to brute-force sty
 
 Deploying security hardening practises, such as fail2ban, could prevent malicious parties from exploiting this vulnerability. However, it would also require end users to have the requisite knowledge and ability to configure them. WooCommerce could mitigate this risk entirely in default installations by implementing a session or time-based limit on the number of coupon validation requests. For example, it is unlikely that a legitimate scenario would involve an unauthenticated user requesting the validation of more than 10 coupon codes during the same session.
 
+This was submitted to Automattic, and rejected with the note `Thanks for reaching out to us. We have received reports for this behavior in the past and don't believe it poses a valid or considerable security issue.`. This repository is now public in compliance with their [Security Policy](https://github.com/woocommerce/woocommerce/security/policy). 
+
 ### Disclaimer
 The script is meant for security research and vulnerability assessment only. Researchers should practice responsible disclosure when identifying vulnerabilities with this tool.
